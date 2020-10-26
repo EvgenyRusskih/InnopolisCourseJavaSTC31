@@ -20,8 +20,6 @@ public class PersonCheck {
             for (int j = i + 1; j < p.length - 1; j++) {
                 if (p[i].getName().equals(p[j].getName())
                         && p[i].getAge() == p[j].getAge()) {
-//                    System.out.println(p[i].getName() + "   "+ p[i].getAge());
-//                    System.out.println(p[j].getName() + "   "+ p[j].getAge());
                     throw new CheckPersonsException("Check exception persons, double name and age: " + p[i].getName() + "   " + p[i].getAge());
                 }
             }

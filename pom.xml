@@ -12,7 +12,9 @@
         <module>Lesson02Task01_HelloWorldExceptions</module>
         <module>Lesson02Task02_NumberGeneration</module>
         <module>Lesson02Task03_PersonSort</module>
+        <module>Lesson03Task01_MathBox</module>
     </modules>
 
 
 </project>
+
