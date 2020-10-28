@@ -1,4 +1,4 @@
-package part01.lesson03.task02.objectbox.model;
+package part01.lesson03.task03.objectmathbox.model;
 
 import java.util.HashSet;
 import java.util.Objects;
@@ -12,22 +12,24 @@ public class ObjectBox {
     /**
      * Коллекция HashSet для хранения обьектов.
      */
-    private Set <Object> objects = new HashSet<>();
+    private Set<Object> objects = new HashSet<>();
 
     /**
      * Добавление обьекта в коллекцию.
+     *
      * @param object Обьект для добавления в коллекцию.
      */
-    public void addObject(Object object) {
+    public void addObject(Object object) throws Exception {
         objects.add(object);
     }
 
     /**
      * Поиск и удаление обьекта из коллекции.
+     *
      * @param object Обьект для поиска и удаления из коллекции.
      */
     public void deleteObject(Object object) {
-        if(objects.contains(object)) {
+        if (objects.contains(object)) {
             objects.remove(object);
         }
 
@@ -37,7 +39,7 @@ public class ObjectBox {
      * Печать содержимого коллекции в строку.
      */
     public void dump() {
-        System.out.println(toString() );
+        System.out.println(toString());
     }
 
 

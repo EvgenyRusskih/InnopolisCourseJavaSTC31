@@ -4,7 +4,7 @@ import part01.lesson03.task02.objectbox.model.ObjectBox;
 import part01.lesson03.task02.objectbox.model.TestObject;
 
 /**
- * DZ3 Task01 program MatchBox
+ * DZ3 Task02 program ObjectBox
  *
  * @author RusskihEvgeny
  * <p>
@@ -41,7 +41,7 @@ public class MainClass {
         objectBox.dump();
         System.out.println();
 
-        //удалим обьект и распчатам результат
+        //удалим обьект и распечатаем результат
         objectBox.deleteObject(testObject1);
         System.out.println("Коллекция после удаления обьекта: ");
         objectBox.dump();
