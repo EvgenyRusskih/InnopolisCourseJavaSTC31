@@ -24,6 +24,7 @@ public class Merge {
      * @param
      */
     public  void fileWordsAddAll() {
+        String hw="Hello World !!!";
         // создаем обьект с настройками и считываем текстовый фаил построчно.
         try {
 //            Settings settings=new Settings();
