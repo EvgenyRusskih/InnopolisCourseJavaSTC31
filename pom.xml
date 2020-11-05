@@ -16,6 +16,8 @@
         <module>Lesson03Task02_ObjectBox</module>
         <module>Lesson03Task03_ObjectMathBox</module>
         <module>Lesson05Task01_AnimalsBox</module>
+        <module>Lesson07Task01_FileIO</module>
+        <module>Lesson07Task02_FileGenerator</module>
     </modules>
 
 
