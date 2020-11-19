@@ -18,6 +18,7 @@
         <module>Lesson05Task01_AnimalsBox</module>
         <module>Lesson07Task01_FileIO</module>
         <module>Lesson07Task02_FileGenerator</module>
+        <module>Lesson08Task01_MultiThreadingFactorial</module>
     </modules>
 
 
