@@ -13,21 +13,25 @@ import java.io.*;
  * Одно слово в разных падежах – это разные слова. –  хозяин, кличка животного, вес.
  */
 public class MainClass {
-
     /**
      * Основной метод с демонстрацией работы по условию задачи.
+     *
      * @param args ARGS standart param input command line
      */
     public static void main(String[] args) {
-        WordsBox wordsBox=new WordsBox();
-        wordsBox.fileWordsAddAll();
-        wordsBox.dump();
+        // получаем все необходимые настройки
+        Settings settings = new Settings();
+        File file_Out = new File(settings.getPathOutputFile());
+        File file_In = new File(settings.getPathInputFile());
+        String regexp = settings.getRegexpression();     //регулярное выражение-разделения строк на слова
 
-        //System.out.println(pathInputFile);
-        //System.out.println(pathOutputFile);
-
+        //слова из файла считываем, обрабатываем и загружаем в коллекцию Box
+        WordsBox wordsBox = new WordsBox();
+        wordsBox.fileWordsAddAlltoBox(file_In, regexp);
+        // Записываем отсортированные слова из коллекции в фаил
+        wordsBox.wordsWriteBoxToFile(file_Out);
+        // Выводим записанный результат из файла на консоль
+        wordsBox.fileWordsPrintFile(file_Out);
     }
-
-
 
 }
