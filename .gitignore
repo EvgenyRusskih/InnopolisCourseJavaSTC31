@@ -1,5 +1,6 @@
 .idea/
 Lesson02Task01_HelloWorldExceptions/target/
+Lesson07Task02_FileGenerator/resources/
 out/
 *.iml
 *.class
