@@ -22,6 +22,7 @@
         <module>Lesson10Task01_WorkerClassloaderAndReflect</module>
         <module>Lesson11Task01_SocketChat</module>
         <module>Lesson12.Task01_Lyambda</module>
+        <module>Lesson13Task01_JavaMemoryHeap</module>
 
     </modules>
 
