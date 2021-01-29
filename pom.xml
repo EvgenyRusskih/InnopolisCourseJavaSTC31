@@ -23,6 +23,7 @@
         <module>Lesson11Task01_SocketChat</module>
         <module>Lesson12.Task01_Lyambda</module>
         <module>Lesson13Task01_JavaMemoryHeap</module>
+        <module>Lesson13Task02_JavaMemoryMetaspace</module>
 
     </modules>
 

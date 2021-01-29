@@ -7,7 +7,7 @@ import org.apache.log4j.*;
 /**
  * MainClass for DZ13
  * Exception Java OutOfMemory from Heap Space (from staic field)
- * VM option - default and wait 10-15 seconds from my hardware
+ * VM option - default and wait 10-15 seconds - from my hardware
  */
 public class MainClass {
 
