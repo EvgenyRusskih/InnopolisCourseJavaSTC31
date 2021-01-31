@@ -24,6 +24,7 @@
         <module>Lesson12.Task01_Lyambda</module>
         <module>Lesson13Task01_JavaMemoryHeap</module>
         <module>Lesson13Task02_JavaMemoryMetaspace</module>
+        <module>Lesson11Task02_SocketChat2</module>
 
     </modules>
 
