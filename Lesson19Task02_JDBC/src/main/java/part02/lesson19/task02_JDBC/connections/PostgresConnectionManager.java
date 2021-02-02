@@ -1,14 +1,11 @@
-package part02.lesson19.task01_JDBC.util;
+package part02.lesson19.task02_JDBC.connections;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-/**
- * Класс с настройками к БД
- * и методом получения нужного Connection
- */
-public class DB_Connection {
+public class PostgresConnectionManager implements ConnectionManager {
+
     /**
      * JDBC connection parameters
      */
@@ -18,12 +15,7 @@ public class DB_Connection {
     public static final String ADDRESS = "localhost";
     public static final String PORT = "5432";
 
-
-    /**
-     * Получаем connection к БД
-     *
-     * @return Connection database
-     */
+    @Override
     public Connection getConnection() {
         java.sql.Connection connection = null;
         try {
@@ -36,5 +28,5 @@ public class DB_Connection {
         }
         return connection;
     }
-}
 
+}
