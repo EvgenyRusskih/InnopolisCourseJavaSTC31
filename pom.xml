@@ -27,6 +27,7 @@
         <module>Lesson11Task02_SocketChat2</module>
         <module>Lesson19Task02_JDBC</module>
         <module>Lesson19Task01_JDBC</module>
+        <module>Lesson15Task01_PatternSingleton</module>
 
 
     </modules>
